@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3284/3284589.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar-wrapper">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="logo" class="logo">
+            </a>
+            <nav class="navbar" id="navbarlinks">
+                <ul class="ul-list">
+                    <li class="li-list"> <a class="a-list" href="index.html">Home</a></li>
+                    <li class="li-list"> <a class="a-list" href="#">About us</a></li>
+                    <li class="li-list"> <a class="a-list" href="#">Our services</a></li>
+                    <li class="li-list"> <a class="a-list active-list" href="api.html">api</a></li>
+                    <li class="li-list last-list"> <a class="a-list" href="#">Tour package</a></li>
+                </ul>
+            </nav>
+            <div class="toggle-menu" id="toggleButton">
+                <div class="line line1" id="burger1"></div>
+                <div class="line line2" id="burger2"></div>
+                <div class="line line3" id="burger3"></div>
+            </div>
+        </div>
+    </header>
+    <section id="api-section">
+        <div id="api-user-name" class="api">
+            <h3 class="api-title">Tourists</h3>
+            <ul id="ul-api" class="users-list"></ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="quick-links">
+                <h2 class="footer-title">Quick links</h2>
+                <ul>
+                    <li>
+                        <a class="footer-list" href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a class="footer-list" href="#slider-section">about company</a>
+                    </li>
+                    <li>
+                        <a class="footer-list" href="#section2">Testimonials</a>
+                    </li>
+                    <li>
+                        <a class="footer-list" href="#section4">Infrastructure</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="support">
+                <h2 class="footer-title">Support</h2>
+                <ul>
+                    <li class="footer-list" >Get started</li>
+                    <li class="footer-list" >Lorem</li>
+                    <li class="footer-list" >Help</li>
+                    <li class="footer-list" >Ipsum</li>
+                </ul>
+            </div>
+
+            <div class="addess">
+                <h2 class="footer-title">Address</h2>
+                <ul>
+                    <li class="footer-list" >14, 1 Ellis bridge ST, </li>
+                    <li class="footer-list" >auckland 3500, Australia</li>
+                    <li class="footer-list" >
+                        <a class="footer-list"  href="callto:">+1234567890</a>
+                    </li>
+                    <li>
+                        <a class="footer-list"  href="mailto:">contactus@demo.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <form action="#" method="POST">
+                <div class="email-subscribe">
+                    <div>
+                        <label for="email" class="email-label">Subscribe to our newsletter</label>
+                    </div>
+                    
+                    <div class="footer-input-wrapper">
+                        <input type="email" class="footer-email" id="email" placeholder="Your Email" onkeydown="functionEmail()">
+                        <span id="error-span" class="error-text"></span>
+                        <button class="footer-btn"><i class="fa-light fa-square"></i></button>
+                    </div>
+            </form>
+                
+            </div>
+        </div>
+        <div class="copy">
+            <p class="final-text">trourism©All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    <script src="js/ajax.js"></script>
+</body>
+</html>

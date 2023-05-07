@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tourism Website">
+    <meta name="keywords" content="tourism, tourist, grece, discover new places">
+    <meta name="author" content="Gvantsa Abramishvili">
+    <!-- fb meta tegs -->
+    <meta property="og:url"                content="https://gvanttsa.github.io/Unilab---project/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Tourism" />
+    <meta property="og:description"        content="The Page for tourism" />
+    <meta property="og:image"              content="images/travel-world.jpg"/>
+    <title>Tourist</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3284/3284589.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Red+Hat+Display:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar-wrapper">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="logo" class="logo">
+            </a>
+            <nav class="navbar" id="navbarlinks">
+                <ul class="ul-list">
+                    <li class="li-list"> <a class="a-list active-list" href="index.html">Home</a></li>
+                    <li class="li-list"> <a class="a-list" href="#slider-section">About us</a></li>
+                    <li class="li-list"> <a class="a-list" href="#section2">Our services</a></li>
+                    <li class="li-list"> <a class="a-list" href="api.html">api</a></li>
+                    <li class="li-list last-list"> <a class="a-list" href="#section4">Tour package</a></li>
+                </ul>
+            </nav>
+            <div class="toggle-menu" id="toggleButton">
+                <div class="line line1" id="burger1"></div>
+                <div class="line line2" id="burger2"></div>
+                <div class="line line3" id="burger3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="slider-section">
+        <div class="slider-wrapper">
+            <button class="arrow arrow-left" id="arrow-left">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+
+            <button class="arrow arrow-right" id="arrow-right">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <div class="slider-content" id="slider-content"></div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="section2-wrapper">
+            <div class="text-box">
+                <h2 class="text-box-title2">discover</h2>
+                <h3 class="text-box-title3">Our Hot Services</h3>
+                <div class="blue-line"></div>
+                <p class="text-box-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+            </div>
+
+            <div class="card-box" id="card-box"></div>
+        </div>
+        
+        <div class="overlay" id="overlay">
+            <div class="overlay-content" id="overlay-content"></div>
+            <div class="close" id="close">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section3-imgW">
+            <div class="video-content">
+                <h2 class="video-title">discover</h2>
+                <p class="video-text">Watch Our Video Tour</p>
+                <div class="blue-line scnd-line"></div>
+                <div class="video-wrapper">
+                    <video src="videos/video.mp4" width="100%" height="100%" controls></video>
+                </div>
+            </div>
+        </div>
+        <div class="price-wrapper">
+            <div class="each-price-div" >
+                <img class="icon" src="images/star.svg" alt="star">
+                <p class="price-number">120,859</p>
+                <p class="heading">happy travelsers</p>
+            </div>
+            <div class="each-price-div" >
+                <img class="icon" src="images/tours.svg" alt="tours">
+                <p class="price-number">2594</p>
+                <p class="heading">setisfied tours</p>
+            </div>
+            <div class="each-price-div" >
+                <img class="icon3" src="images/globuse.svg" alt="globuse">
+                <p class="price-number">854</p>
+                <p class="heading">destination</p>
+            </div>
+            <div class="each-price-div" >
+                <img class="icon4" src="images/hotel.svg" alt="globuse">
+                <p class="price-number">978</p>
+                <p class="heading">hotels $ resorts</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section4">
+        <div class="section-wrapper">
+            <div class="section-heading">
+                <h2 class="section-title1">we offer</h2>
+                <h3 class="section-title2">Popular Tour Package</h3>
+                <div class="third-line"></div>
+            </div>
+            <div class="box-wrapper">
+                <div class="banner">
+                    <img class="banner-img" src="images/view.jpg" alt="view">
+                    <div class="banner-texts">
+                        <h3 class="banner-price">$299/person</h3>
+                        <h2 class="banner-title">Blue Beauty of Greece</h2>
+                        <p class="banner-price">5 Days / 6 Night</p>
+                        <p class="text-on-photo">honeymoon</p>
+                    </div>
+
+                </div>
+                <div class="banner">
+                    <img src="images/clif.jpg" alt="clif">
+                    <div class="banner-texts">
+                        <h3 class="banner-price">$178/person</h3>
+                        <h2 class="banner-title">Nature of Phuket</h2>
+                        <p class="banner-price">3 Days / 4 Night</p>
+                        <p class="text-on-photo">holiday</p>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="images/paris.jpg" alt="paris">
+                    <div class="banner-texts">
+                        <h3 class="banner-price">$1111/person</h3>
+                        <h2 class="banner-title">World Tour of Paris</h2>
+                        <p class="banner-price">7 Days / 8 Night</p>
+                        <p class="text-on-photo">holiday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section5 -->
+    <section>
+        <div class="bg-img">
+            <div class="form-texts-wrapper">
+                <h2 class="form-title1">Get 10% Off on Your Next Travel</h2>
+                <h4 class="form-title2">Maximum doscout 1000$ per person</h4>
+
+                <div class="form-wrapper">
+                    <div class="form-div">
+                        <form action="#" method="POST" id="subscribtion">
+                            <input type="email" name="yourEmail" id="myEmail" class="email" placeholder="Enter your email" onkeydown="emailValidation()">
+                            <span id="emailtext" class="error-text"></span>
+                        </form>
+                    </div>
+                    <div>
+                        <button type="submit" class="submit-btn">subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section6 -->
+    <section>
+        <div>
+            <div class="section-heading">
+                <h2 class="section-title1">our smiles</h2>
+                <h3 class="section-title2">Happy Travelers</h3>
+                <div class="third-line"></div>
+            </div>
+
+            <div class="people-cards-wrapper">
+                <div class="person-card">
+                    <div class="person1-img">
+                        <img src="images/person1.jpg" alt="person1">
+                    </div>
+                    <div class="person-info">
+                        <h2 class="person-name">Ribeca Singh</h2>
+                        <p class="person-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <i class="fa-sharp fa-solid fa-quote-right"></i>
+                    </div>
+                </div>
+
+                <div class="person-card">
+                    <div class="person1-img">
+                        <img src="images/girl.jpg" alt="girl">
+                    </div>
+                    <div class="person-info">
+                        <h2 class="person-name">Jimmy dean</h2>
+                        <p class="person-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <i class="fa-sharp fa-solid fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <div class="person1-img">
+                        <img src="images/man.jpg" alt="man">
+                    </div>
+                    <div class="person-info">
+                        <h2 class="person-name">Theodule Terer</h2>
+                        <p class="person-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                        <i class="fa-sharp fa-solid fa-quote-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="backgroung-img">
+            <div class="background-content">
+                <h1 class="button-titile">Ready to plan your trip?</h1>
+                <button class="button-book">book now</button>
+            </div>
+        </div>
+    </section>
+    <!-- section7 -->
+    <section>
+        <div>
+            <div class="section-heading">
+                <h2 class="section-title1">our smiles</h2>
+                <h3 class="section-title2">Happy Travelers</h3>
+                <div class="third-line"></div>
+            </div>
+
+            <div class="country-wrapper">
+                <div class="each-country country1">
+                    <div class="country-text">
+                        <div style="width: 144px;">
+                            <h2 class="country-name">Thailand</h2>
+                            <p class="tour-price">$900 - $1900</p>
+                        </div>
+                        <div>
+                            <button class="arrow-wrapper"> <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="each-country country2">
+                    <div class="country-text">
+                        <div style="width: 144px;">
+                            <h2 class="country-name">Italy</h2>
+                            <p class="tour-price">$700 - $2000</p>
+                        </div>
+                        <div>
+                            <button class="arrow-wrapper"> <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="each-country country3">
+                    <div class="country-text">
+                        <div style="width: 144px;">
+                            <h2 class="country-name">Indonesia</h2>
+                            <p class="tour-price">$300 - $1100</p>
+                        </div>
+                        <div>
+                            <button class="arrow-wrapper"> <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="each-country country4">
+                    <div class="country-text">
+                        <div style="width: 144px;">
+                            <h2 class="country-name">Singapore</h2>
+                            <p class="tour-price">$1900 - $2700</p>
+                        </div>
+                        <div>
+                            <button class="arrow-wrapper"> <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22752.992779475066!2d-87.9435585728584!3d44.533091548702856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e61d64ca7a93%3A0xd35c038e0e1219bd!2sUniversity%20of%20Wisconsin-Green%20Bay!5e0!3m2!1ska!2sge!4v1683432221312!5m2!1ska!2sge" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="quick-links">
+                <h2 class="footer-title">Quick links</h2>
+                <ul>
+                    <li>
+                        <a class="footer-list" href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a class="footer-list" href="#slider-section">about company</a>
+                    </li>
+                    <li>
+                        <a class="footer-list" href="#section2">Testimonials</a>
+                    </li>
+                    <li>
+                        <a class="footer-list" href="#section4">Infrastructure</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="support">
+                <h2 class="footer-title">Support</h2>
+                <ul>
+                    <li class="footer-list" >Get started</li>
+                    <li class="footer-list" >Lorem</li>
+                    <li class="footer-list" >Help</li>
+                    <li class="footer-list" >Ipsum</li>
+                </ul>
+            </div>
+
+            <div class="addess">
+                <h2 class="footer-title">Address</h2>
+                <ul>
+                    <li class="footer-list" >14, 1 Ellis bridge ST, </li>
+                    <li class="footer-list" >auckland 3500, Australia</li>
+                    <li class="footer-list" >
+                        <a class="footer-list"  href="callto:">+1234567890</a>
+                    </li>
+                    <li>
+                        <a class="footer-list"  href="mailto:">contactus@demo.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <form action="#" method="POST">
+                <div class="email-subscribe">
+                    <div>
+                        <label for="email" class="email-label">Subscribe to our newsletter</label>
+                    </div>
+                    
+                    <div class="footer-input-wrapper">
+                        <input type="email" class="footer-email" id="email" placeholder="Your Email" onkeydown="functionEmail()">
+                        <span id="error-span" class="error-text"></span>
+                        <button class="footer-btn"><i class="fa-light fa-square"></i></button>
+                    </div>
+                </div>
+            </form>
+                
+            
+        </div>
+        <div class="copy">
+            <p class="final-text">trourism©All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+    <script src="cards.js"></script>
+    <script src="forms.js"></script>
+</body>
+</html>
